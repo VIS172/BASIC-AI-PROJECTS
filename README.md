@@ -14,7 +14,9 @@ Easy to extend and customize
 
 
 
+
 Getting Started:
+
 Clone the repository: git clone https://github.com/yourusername/rule-based-chatbot.git
 
 Navigate to the project directory: cd rule-based-chatbot
