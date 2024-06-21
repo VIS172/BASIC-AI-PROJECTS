@@ -61,6 +61,7 @@ This repository contains the code for a Rule-Based Chatbot implemented in Python
 ## Usage
 
 ### Define Rules and Patterns
+![Untitled-53](https://github.com/VIS172/CODSOFT/assets/109724129/bd11da27-e68d-4cfd-984e-66ac34fd1d1d)
 
 Rules and patterns are defined in the `rules.json` file. Each rule consists of a pattern and a corresponding response:
 ```json
@@ -70,4 +71,4 @@ Rules and patterns are defined in the `rules.json` file. Each rule consists of a
         {"pattern": "bye|exit|quit", "response": "Goodbye! Have a nice day!"}
     ]
 }
-![Untitled-53](https://github.com/VIS172/CODSOFT/assets/109724129/bd11da27-e68d-4cfd-984e-66ac34fd1d1d)
+
