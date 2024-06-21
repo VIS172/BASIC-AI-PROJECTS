@@ -3,7 +3,7 @@
 
 # Rule-Based Chatbot Project
 
-This repository contains the code for a Rule-Based Chatbot implemented in Python. Rule-based chatbots respond to user inputs based on predefined patterns and rules, making them ideal for applications such as FAQs or basic customer service interactions.
+Rule-based chatbots respond to user inputs based on predefined patterns and rules, making them ideal for applications such as FAQs or basic customer service interactions.
 
 ## Features
 
