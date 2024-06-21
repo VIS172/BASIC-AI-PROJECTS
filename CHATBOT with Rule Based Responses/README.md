@@ -1,19 +1,80 @@
-Welcome to the Rule-Based Chatbot Project!
+![images](https://github.com/VIS172/CODSOFT/assets/109724129/40d79b99-f7bd-4924-9232-52bbf011f79c)
 
-This repository contains the code for a simple rule-based chatbot implemented in Python. Rule-based chatbots respond to user inputs based on predefined patterns and rules, making them ideal for applications such as FAQs or basic customer service interactions.
 
-Features:
+# Rule-Based Chatbot Project
 
-Pattern matching with regular expressions
+This repository contains the code for a Rule-Based Chatbot implemented in Python. Rule-based chatbots respond to user inputs based on predefined patterns and rules, making them ideal for applications such as FAQs or basic customer service interactions.
 
-Keyword-based responses
+## Features
 
-Easy to extend and customize
+- Predefined rules and patterns for responses
+- Pattern matching using regular expressions
+- Easy customization of rules and responses
+- Support for basic conversation flow
 
-Getting Started:
+## Getting Started
 
-Clone the repository: git clone https://github.com/yourusername/rule-based-chatbot.git
+### Prerequisites
 
-Navigate to the project directory: cd rule-based-chatbot
+- Python 3.x
+- Required Python libraries (can be installed via `requirements.txt`)
 
-Run the chatbot script: python chatbot.py
+### Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/rule-based-chatbot.git
+    ```
+
+2. **Navigate to the project directory**:
+    ```bash
+    cd rule-based-chatbot
+    ```
+
+3. **Install the required dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the script**:
+    ```bash
+    python chatbot.py
+    ```
+
+## Code Overview
+
+### 1. Rule Definition
+
+- **Patterns and Responses**: Define patterns using regular expressions and map them to appropriate responses.
+- **Customization**: Easily add or modify rules in the `rules.json` file.
+
+### 2. Pattern Matching
+
+- **Regular Expressions**: Utilize regular expressions to match user inputs with predefined patterns.
+- **Response Selection**: Select and return the corresponding response based on the matched pattern.
+
+### 3. Chatbot Interaction
+
+- **User Input Handling**: Continuously accept user inputs and process them using the defined rules.
+- **Response Generation**: Generate and return appropriate responses based on the matched patterns.
+
+## Usage
+
+### Define Rules and Patterns
+
+Rules and patterns are defined in the `rules.json` file. Each rule consists of a pattern and a corresponding response:
+```json
+{
+    "patterns": [
+        {"pattern": "hello|hi|hey", "response": "Hello! How can I help you today?"},
+        {"pattern": "bye|exit|quit", "response": "Goodbye! Have a nice day!"}
+    ]
+}
+#Interact with the Chatbot
+#The chatbot will prompt you for input. Enter your message, and the chatbot will respond based on the predefined rules:
+
+You: hello
+Bot: Hello! How can I help you today?
+
+You: bye
+Bot: Goodbye! Have a nice day!
