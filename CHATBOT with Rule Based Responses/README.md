@@ -70,8 +70,10 @@ Rules and patterns are defined in the `rules.json` file. Each rule consists of a
         {"pattern": "bye|exit|quit", "response": "Goodbye! Have a nice day!"}
     ]
 }
-#Interact with the Chatbot
-#The chatbot will prompt you for input. Enter your message, and the chatbot will respond based on the predefined rules:
+
+
+##Interact with the Chatbot
+##The chatbot will prompt you for input. Enter your message, and the chatbot will respond based on the predefined rules:
 
 You: hello
 Bot: Hello! How can I help you today?
