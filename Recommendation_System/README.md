@@ -10,12 +10,9 @@ Welcome to the Book Recommendations System! This project provides personalized b
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Dataset](#dataset)
 - [Model](#model)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- 
 
 ## Overview
 
@@ -66,5 +63,4 @@ The system employs several models to generate recommendations:
 - *Content-based Filtering*: Uses book metadata to find similar items.
 - *Hybrid Model*: Combines collaborative and content-based approaches for better performance.
 
-Details of the models and their implementations can be found in the models/ directory.
 
