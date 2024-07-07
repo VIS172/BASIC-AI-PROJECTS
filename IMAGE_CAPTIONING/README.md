@@ -6,7 +6,7 @@ This project aims to predict captions for input images using a combination of Co
 
 The dataset used is the Flickr8k dataset, which can be downloaded from Kaggle:
 
-[Download the dataset](https://www.kaggle.com/adityajn105/flickr8k)
+[Download the dataset]: (https://www.kaggle.com/adityajn105/flickr8k)
 
 ## Project Objective
 
