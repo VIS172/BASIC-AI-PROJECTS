@@ -1,3 +1,7 @@
+![images](https://github.com/VIS172/CODSOFT/assets/109724129/aa69421c-2b4d-419f-822c-fffb37a74a31)
+
+
+
 # Image Captioning 
 
 This project aims to predict captions for input images using a combination of Convolutional Neural Networks (CNN) and Long Short-Term Memory Networks (LSTM). The dataset consists of 8,000 images, each with 5 captions. Features are extracted from both the images and the text captions, concatenated, and used to predict the next word in the caption.
@@ -6,7 +10,7 @@ This project aims to predict captions for input images using a combination of Co
 
 The dataset used is the Flickr8k dataset, which can be downloaded from Kaggle:
 
-[Download the dataset]: (https://www.kaggle.com/adityajn105/flickr8k)
+[Download the dataset](https://www.kaggle.com/adityajn105/flickr8k)
 
 ## Project Objective
 
